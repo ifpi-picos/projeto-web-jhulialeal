@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Banco de imagens de usuários" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeria de Fotos</title>
+
+  <link rel="stylesheet" href="./estilo.css" />
+</head>
+
+<body>
+  <div class="modal-container">
+    <span class="botao-sair">
+      <img src="imagens/x-solid.svg" alt="Botão Sair" class="x-icon"></i>
+    </span>
+    <div class="modal-imagem"></div>
+  </div>
+
+  <main class="main">
+    <div class="subtitulo">Galeria</div>
+    <div class="titulo">Últimas Imagens</div>
+
+    <div class="descricao">
+      Essa galeria de imagens oferece uma vitrine visual interativa, permitindo aos visitantes explorar uma coleção diversificada de fotografias e ilustrações. Essa plataforma é ideal para exibir trabalhos artísticos, capturas de momentos especiais e uma ampla gama de expressões visuais criativas.
+    </div>
+
+    <div class="pesquisa">
+      <div class="icone-pesquisa">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </svg>
+      </div>
+
+      <input type="search" placeholder="Pesquisa" />
+    </div>
+
+    <div class="acoes">
+      <div class="quantidade-imagens"><span class="total-imagens">0</span> imagens</div>
+
+      <div class="alinhamento">
+        <div>
+          <label for="input-imagem">
+            <div class="btn-upload">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" width="24" height="24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+              </svg>
+              <span>Fazer upload</span>
+            </div>
+
+
+            <input type="file" id="input-imagem">
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <section class="galeria">
+      <img loading="lazy" src="imagens/1.jpg" alt="Imagem 1" />
+      <img loading="lazy" src="imagens/2.jpg" alt="Imagem 2" />
+      <img loading="lazy" src="imagens/3.jpg" alt="Imagem 3" />
+      <img loading="lazy" src="imagens/4.jpg" alt="Imagem 4" />
+      <img loading="lazy" src="imagens/5.jpg" alt="Imagem 5" />
+      <img loading="lazy" src="imagens/6.jpg" alt="Imagem 6" />
+      <img loading="lazy" src="imagens/7.jpg" alt="Imagem 7" />
+      <img loading="lazy" src="imagens/8.jpg" alt="Imagem 8" />
+      <img loading="lazy" src="imagens/9.jpg" alt="Imagem 9" />
+      <img loading="lazy" src="imagens/10.jpg" alt="Imagem 10" />
+      <img loading="lazy" src="imagens/11.jpg" alt="Imagem 11" />
+      <img loading="lazy" src="imagens/12.jpg" alt="Imagem 12" />
+      <img loading="lazy" src="imagens/13.jpg" alt="Imagem 13" />
+      <img loading="lazy" src="imagens/14.jpg" alt="Imagem 14" />
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
